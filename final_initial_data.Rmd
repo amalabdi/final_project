@@ -9,22 +9,16 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+# Introduction
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+For my project, I am interested in exploring rent prices in central Ohio. Some things I want to consider in this project is the actual price of rent and also if renters are cost-burdened. The U.S. Department of Housing and Urban Development defines a renter as cost-burdened if they are paying more than 30% of their monthly take-home for rent. I also want to look at cost-burdened renters by race. Another important factor to consider is the availability of housing. Less available units means that landlords can raise prices.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+# Data Source 1
 
-```{r cars}
-summary(cars)
-```
+One potentially useful data source I found is from the American Community Survey. It is an ongoing survey that covers various topics from demographcics to housing and education. It is conducted every year unlike the Census, but like the Census, it is conducted by the government. However, I am still working on how to use the data. The CSV file I downloaded is in a strange, unusable format. It appears to be one row. However, this is the link I downloaded it from. <https://data.census.gov/cedsci/table?d=ACS%205-Year%20Estimates%20Data%20Profiles&table=DP04&tid=ACSDP5Y2017.DP04&lastDisplayedRow=22&hidePreview=true&g=0500000US39049>
 
-## Including Plots
+This has information about gross rent as a percentage of income which is the piece I am most interested in.
+ 
+# Data Source 2
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+The second data source I would like to use is from the US Bureau of Labor Statistics. A question I am looking to answer is: Are incomes keeping up with rising rent costs? Their website, <https://www.bls.gov/data/>, has many
