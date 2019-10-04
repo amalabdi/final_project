@@ -15,10 +15,10 @@ For my project, I am interested in exploring rent prices in central Ohio. Some t
 
 # Data Source 1
 
-One potentially useful data source I found is from the American Community Survey. It is an ongoing survey that covers various topics from demographcics to housing and education. It is conducted every year unlike the Census, but like the Census, it is conducted by the government. However, I am still working on how to use the data. The CSV file I downloaded is in a strange, unusable format. It appears to be one row. However, this is the link I downloaded it from. <https://data.census.gov/cedsci/table?d=ACS%205-Year%20Estimates%20Data%20Profiles&table=DP04&tid=ACSDP5Y2017.DP04&lastDisplayedRow=22&hidePreview=true&g=0500000US39049>
+One potentially useful data source I found is from the American Community Survey. It is an ongoing survey that covers various topics from demographcics to housing and education. It is conducted every year unlike the Census, but like the Census, it is conducted by the government. The data I found has various questions about housing from cost of rent to size of household. However, I am still working on how to use the data. The CSV file I downloaded is in a strange, unusable format. It appears to be one row. The only think I have done with it (which took place before downloading), was filter it to only show me data from Franklin County, Ohio. Here is is the link to the table that I downloaded it from: <https://data.census.gov/cedsci/table?d=ACS%205-Year%20Estimates%20Data%20Profiles&table=DP04&tid=ACSDP5Y2017.DP04&lastDisplayedRow=22&hidePreview=true&g=0500000US39049>
 
-This has information about gross rent as a percentage of income which is the piece I am most interested in.
+Once I clean it up, I will use the readxl package. This has information about gross rent as a percentage of income which is the piece I am most interested in.
  
 # Data Source 2
 
-The second data source I would like to use is from the US Bureau of Labor Statistics. A question I am looking to answer is: Are incomes keeping up with rising rent costs? Their website, <https://www.bls.gov/data/>, has many
+The second data source I would like to use is from the US Bureau of Labor Statistics. A question I am looking to answer is: Are incomes keeping up with rising rent costs? Their website, <https://www.bls.gov/data/>, has many datasets such as "Employed persons by occupation, race, Hispanic or Latino ethnicity, and sex". I am not sure at this moment which data set would be best suited for my project so I will have to spend some time thinking about the pros and cons of each. So far, I have only looked through the data. A CSV file is available for each data set so I would read that it in with the readxl package. 
